@@ -1,11 +1,14 @@
-# Forklore
+# Forklore v0.1.3
 
-Offline-first personal recipe database.
+Offline-first recipe database.
 
-## Repository structure
-
-This build intentionally uses **one directory level only**. All required files and image assets live in the repository root. There is no `assets/` folder.
-
-## Run
-
-Serve the repository with any static web server. The app is designed to work offline after its service worker has been installed.
+- Completely empty on first launch
+- Manual recipes and local photos
+- Camera/photo-library recipe images
+- Recipe-photo import entry point
+- Add selected ingredients to shopping list
+- Deselect ingredients already owned
+- Duplicate shopping items are combined
+- Check off purchased items
+- LocalStorage persistence
+- Flat GitHub repository; no assets folder
